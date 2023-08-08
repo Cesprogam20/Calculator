@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Calculator</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d9bdc24350.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comme&family=Fira+Sans&family=Oswald:wght@500&family=Roboto+Condensed:wght@700&family=Roboto:wght@300&family=Share+Tech+Mono&family=Teko:wght@300&family=Ubuntu:wght@300&family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesproyect2.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comme&family=Fira+Sans&family=Oswald:wght@500&family=Roboto+Condensed:wght@700&family=Roboto:wght@300&family=Ubuntu:wght@300&family=Vina+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id='body' class="container-fluid container1 d-flex justify-content-center align-items-center background1 flex-column">
+        <div id="boton" class="p-1">
+            <div class="toggle" id="toggle"></div>
+        </div>
+        <div class="style1 rounded-4 d-flex flex-column p-1" id="background-calculator">
+            <div class="screen mx-3 my-3 rounded-2 d-flex justify-content-end align-items-center flex-column">
+                <p class="mx-3 w-100 text-style4 px-2 mt-1 mb-0" id="display2"></p>
+                <p class="mx-3 w-100 text-style fs-3 mb-0 px-2" id="display">0</p>
+            </div>
+            <div class="position-relative w-100 h-100 p-3 pt-1 pb-1 display">
+                <button class="style2 b1" id="one">1</button>
+                <button class="style2 b2" id="two">2</button>
+                <button class="style2 b3" id="three">3</button>
+                <button class="style2 b4" id="add">+</button>
+                <button class="style2 b5" id="four">4</button>
+                <button class="style2 b6" id="five">5</button>
+                <button class="style2 b7" id="six">6</button>
+                <button class="style2 b8" id="subtract">-</button>
+                <button class="style2 b9" id="seven">7</button>
+                <button class="style2 b10" id="eight">8</button>
+                <button class="style2 b11" id="nine">9</button>
+                <button class="style2 b12 pt-1" id="multiply">*</button>
+                <button class="style2 b13" id="decimal">.</button>
+                <button class="style2 b14" id="zero">0</button>
+                <button id='equals' class="style2 b15">=</button>
+                <button class="style2 b15" id="divide">÷</button>
+                <button class="style2 b16" id="clear">Clear</button>
+                <button class="style2 b17">Delete</button>
+            </div>
+        </div>
+        <footer class="mt-4 fs-6 text-style3 style3 fw-bold" id="presentation">Designed and Coded by</footer>
+        <p class="style3 text-style3 fw-bold" id="author">Cesar Gonzalez</p>
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+</html>
